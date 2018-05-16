@@ -1,0 +1,511 @@
+EESchema Schematic File Version 4
+LIBS:pcie-probing-riser-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L PCIexpress_edge:PCIexpress_x4 U?
+U 1 1 5AFB1F32
+P 3450 1700
+AR Path="/5AFB1F32" Ref="U?"  Part="1" 
+AR Path="/5AFB1ECB/5AFB1F32" Ref="U1"  Part="1" 
+F 0 "U1" H 4150 1990 60  0000 C CNN
+F 1 "PCIexpress_x4" H 4150 1884 60  0000 C CNN
+F 2 "Connector_PCBEdge:BUS_PCIexpress_x4" H 3450 1700 50  0001 C CNN
+F 3 "" H 3450 1700 50  0001 C CNN
+	1    3450 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L PCIexpress_edge:PCIexpress_x8 U?
+U 1 1 5AFB1F39
+P 3450 4500
+AR Path="/5AFB1F39" Ref="U?"  Part="1" 
+AR Path="/5AFB1ECB/5AFB1F39" Ref="U2"  Part="1" 
+F 0 "U2" H 4150 4790 60  0000 C CNN
+F 1 "PCIexpress_x8" H 4150 4684 60  0000 C CNN
+F 2 "Connector_PCBEdge:BUS_PCIexpress_x8" H 3450 4500 50  0001 C CNN
+F 3 "" H 3450 4500 50  0001 C CNN
+	1    3450 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R12
+U 1 1 5AFB1F77
+P 5150 1700
+F 0 "R12" V 5150 2600 50  0000 C CNN
+F 1 "0R" V 5150 2850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5150 1700 50  0001 C CNN
+F 3 "~" H 5150 1700 50  0001 C CNN
+	1    5150 1700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5250 1700 5700 1700
+Wire Wire Line
+	5050 1700 4850 1700
+Text Label 5450 1700 0    50   ~ 0
+B1
+$Comp
+L Device:R_Small R13
+U 1 1 5AFB237B
+P 5150 1800
+F 0 "R13" V 5150 2700 50  0000 C CNN
+F 1 "0R" V 5150 2950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5150 1800 50  0001 C CNN
+F 3 "~" H 5150 1800 50  0001 C CNN
+	1    5150 1800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5250 1800 5700 1800
+Wire Wire Line
+	5050 1800 4850 1800
+Text Label 5450 1800 0    50   ~ 0
+B2
+$Comp
+L Device:R_Small R14
+U 1 1 5AFB2416
+P 5150 1900
+F 0 "R14" V 5150 2800 50  0000 C CNN
+F 1 "0R" V 5150 3050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5150 1900 50  0001 C CNN
+F 3 "~" H 5150 1900 50  0001 C CNN
+	1    5150 1900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5250 1900 5700 1900
+Wire Wire Line
+	5050 1900 4850 1900
+Text Label 5450 1900 0    50   ~ 0
+B3
+$Comp
+L Device:R_Small R15
+U 1 1 5AFB241F
+P 5150 2000
+F 0 "R15" V 5150 2900 50  0000 C CNN
+F 1 "0R" V 5150 3150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5150 2000 50  0001 C CNN
+F 3 "~" H 5150 2000 50  0001 C CNN
+	1    5150 2000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5250 2000 5700 2000
+Wire Wire Line
+	5050 2000 4850 2000
+Text Label 5450 2000 0    50   ~ 0
+B4
+$Comp
+L Device:R_Small R16
+U 1 1 5AFB24E6
+P 5150 2100
+F 0 "R16" V 5150 3000 50  0000 C CNN
+F 1 "0R" V 5150 3250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5150 2100 50  0001 C CNN
+F 3 "~" H 5150 2100 50  0001 C CNN
+	1    5150 2100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5250 2100 5700 2100
+Wire Wire Line
+	5050 2100 4850 2100
+Text Label 5450 2100 0    50   ~ 0
+B5
+$Comp
+L Device:R_Small R17
+U 1 1 5AFB24EF
+P 5150 2200
+F 0 "R17" V 5150 3100 50  0000 C CNN
+F 1 "0R" V 5150 3350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5150 2200 50  0001 C CNN
+F 3 "~" H 5150 2200 50  0001 C CNN
+	1    5150 2200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5250 2200 5700 2200
+Wire Wire Line
+	5050 2200 4850 2200
+Text Label 5450 2200 0    50   ~ 0
+B6
+$Comp
+L Device:R_Small R18
+U 1 1 5AFB24F8
+P 5150 2300
+F 0 "R18" V 5150 3200 50  0000 C CNN
+F 1 "0R" V 5150 3450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5150 2300 50  0001 C CNN
+F 3 "~" H 5150 2300 50  0001 C CNN
+	1    5150 2300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5250 2300 5700 2300
+Wire Wire Line
+	5050 2300 4850 2300
+Text Label 5450 2300 0    50   ~ 0
+B7
+$Comp
+L Device:R_Small R19
+U 1 1 5AFB2501
+P 5150 2400
+F 0 "R19" V 5150 3300 50  0000 C CNN
+F 1 "0R" V 5150 3550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5150 2400 50  0001 C CNN
+F 3 "~" H 5150 2400 50  0001 C CNN
+	1    5150 2400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5250 2400 5700 2400
+Wire Wire Line
+	5050 2400 4850 2400
+Text Label 5450 2400 0    50   ~ 0
+B8
+$Comp
+L Device:R_Small R20
+U 1 1 5AFB2734
+P 5150 2500
+F 0 "R20" V 5150 3400 50  0000 C CNN
+F 1 "0R" V 5150 3650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5150 2500 50  0001 C CNN
+F 3 "~" H 5150 2500 50  0001 C CNN
+	1    5150 2500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5250 2500 5700 2500
+Wire Wire Line
+	5050 2500 4850 2500
+Text Label 5450 2500 0    50   ~ 0
+B9
+$Comp
+L Device:R_Small R21
+U 1 1 5AFB273D
+P 5150 2600
+F 0 "R21" V 5150 3500 50  0000 C CNN
+F 1 "0R" V 5150 3750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5150 2600 50  0001 C CNN
+F 3 "~" H 5150 2600 50  0001 C CNN
+	1    5150 2600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5250 2600 5700 2600
+Wire Wire Line
+	5050 2600 4850 2600
+Text Label 5450 2600 0    50   ~ 0
+B10
+$Comp
+L Device:R_Small R22
+U 1 1 5AFB2746
+P 5150 2700
+F 0 "R22" V 5150 3600 50  0000 C CNN
+F 1 "0R" V 5150 3850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5150 2700 50  0001 C CNN
+F 3 "~" H 5150 2700 50  0001 C CNN
+	1    5150 2700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5250 2700 5700 2700
+Wire Wire Line
+	5050 2700 4850 2700
+Text Label 5450 2700 0    50   ~ 0
+B11
+$Comp
+L Device:R_Small R1
+U 1 1 5AFB3C4D
+P 3150 1700
+F 0 "R1" V 3150 2600 50  0000 C CNN
+F 1 "0R" V 3150 2850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3150 1700 50  0001 C CNN
+F 3 "~" H 3150 1700 50  0001 C CNN
+	1    3150 1700
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3050 1700 2600 1700
+Wire Wire Line
+	3250 1700 3450 1700
+Text Label 2850 1700 2    50   ~ 0
+A1
+$Comp
+L Device:R_Small R2
+U 1 1 5AFB3C56
+P 3150 1800
+F 0 "R2" V 3150 2700 50  0000 C CNN
+F 1 "0R" V 3150 2950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3150 1800 50  0001 C CNN
+F 3 "~" H 3150 1800 50  0001 C CNN
+	1    3150 1800
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3050 1800 2600 1800
+Wire Wire Line
+	3250 1800 3450 1800
+Text Label 2850 1800 2    50   ~ 0
+A2
+$Comp
+L Device:R_Small R3
+U 1 1 5AFB3C5F
+P 3150 1900
+F 0 "R3" V 3150 2800 50  0000 C CNN
+F 1 "0R" V 3150 3050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3150 1900 50  0001 C CNN
+F 3 "~" H 3150 1900 50  0001 C CNN
+	1    3150 1900
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3050 1900 2600 1900
+Wire Wire Line
+	3250 1900 3450 1900
+Text Label 2850 1900 2    50   ~ 0
+A3
+$Comp
+L Device:R_Small R4
+U 1 1 5AFB3C68
+P 3150 2000
+F 0 "R4" V 3150 2900 50  0000 C CNN
+F 1 "0R" V 3150 3150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3150 2000 50  0001 C CNN
+F 3 "~" H 3150 2000 50  0001 C CNN
+	1    3150 2000
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3050 2000 2600 2000
+Wire Wire Line
+	3250 2000 3450 2000
+Text Label 2850 2000 2    50   ~ 0
+A4
+$Comp
+L Device:R_Small R5
+U 1 1 5AFB3C71
+P 3150 2100
+F 0 "R5" V 3150 3000 50  0000 C CNN
+F 1 "0R" V 3150 3250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3150 2100 50  0001 C CNN
+F 3 "~" H 3150 2100 50  0001 C CNN
+	1    3150 2100
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3050 2100 2600 2100
+Wire Wire Line
+	3250 2100 3450 2100
+Text Label 2850 2100 2    50   ~ 0
+A5
+$Comp
+L Device:R_Small R6
+U 1 1 5AFB3C7A
+P 3150 2200
+F 0 "R6" V 3150 3100 50  0000 C CNN
+F 1 "0R" V 3150 3350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3150 2200 50  0001 C CNN
+F 3 "~" H 3150 2200 50  0001 C CNN
+	1    3150 2200
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3050 2200 2600 2200
+Wire Wire Line
+	3250 2200 3450 2200
+Text Label 2850 2200 2    50   ~ 0
+A6
+$Comp
+L Device:R_Small R7
+U 1 1 5AFB3C83
+P 3150 2300
+F 0 "R7" V 3150 3200 50  0000 C CNN
+F 1 "0R" V 3150 3450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3150 2300 50  0001 C CNN
+F 3 "~" H 3150 2300 50  0001 C CNN
+	1    3150 2300
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3050 2300 2600 2300
+Wire Wire Line
+	3250 2300 3450 2300
+Text Label 2850 2300 2    50   ~ 0
+A7
+$Comp
+L Device:R_Small R8
+U 1 1 5AFB3C8C
+P 3150 2400
+F 0 "R8" V 3150 3300 50  0000 C CNN
+F 1 "0R" V 3150 3550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3150 2400 50  0001 C CNN
+F 3 "~" H 3150 2400 50  0001 C CNN
+	1    3150 2400
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3050 2400 2600 2400
+Wire Wire Line
+	3250 2400 3450 2400
+Text Label 2850 2400 2    50   ~ 0
+A8
+$Comp
+L Device:R_Small R9
+U 1 1 5AFB3C95
+P 3150 2500
+F 0 "R9" V 3150 3400 50  0000 C CNN
+F 1 "0R" V 3150 3650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3150 2500 50  0001 C CNN
+F 3 "~" H 3150 2500 50  0001 C CNN
+	1    3150 2500
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3050 2500 2600 2500
+Wire Wire Line
+	3250 2500 3450 2500
+Text Label 2850 2500 2    50   ~ 0
+A9
+$Comp
+L Device:R_Small R10
+U 1 1 5AFB3C9E
+P 3150 2600
+F 0 "R10" V 3150 3500 50  0000 C CNN
+F 1 "0R" V 3150 3750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3150 2600 50  0001 C CNN
+F 3 "~" H 3150 2600 50  0001 C CNN
+	1    3150 2600
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3050 2600 2600 2600
+Wire Wire Line
+	3250 2600 3450 2600
+Text Label 2850 2600 2    50   ~ 0
+A10
+$Comp
+L Device:R_Small R11
+U 1 1 5AFB3CA7
+P 3150 2700
+F 0 "R11" V 3150 3600 50  0000 C CNN
+F 1 "0R" V 3150 3850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3150 2700 50  0001 C CNN
+F 3 "~" H 3150 2700 50  0001 C CNN
+	1    3150 2700
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3050 2700 2600 2700
+Wire Wire Line
+	3250 2700 3450 2700
+Text Label 2850 2700 2    50   ~ 0
+A11
+Wire Wire Line
+	4850 4500 5700 4500
+Text Label 5450 4500 0    50   ~ 0
+B1
+Wire Wire Line
+	4850 4600 5700 4600
+Text Label 5450 4600 0    50   ~ 0
+B2
+Wire Wire Line
+	4850 4700 5700 4700
+Text Label 5450 4700 0    50   ~ 0
+B3
+Wire Wire Line
+	4850 4800 5700 4800
+Text Label 5450 4800 0    50   ~ 0
+B4
+Wire Wire Line
+	4850 4900 5700 4900
+Text Label 5450 4900 0    50   ~ 0
+B5
+Wire Wire Line
+	4850 5000 5700 5000
+Text Label 5450 5000 0    50   ~ 0
+B6
+Wire Wire Line
+	4850 5100 5700 5100
+Text Label 5450 5100 0    50   ~ 0
+B7
+Wire Wire Line
+	4850 5200 5700 5200
+Text Label 5450 5200 0    50   ~ 0
+B8
+Wire Wire Line
+	4850 5300 5700 5300
+Text Label 5450 5300 0    50   ~ 0
+B9
+Wire Wire Line
+	4850 5400 5700 5400
+Text Label 5450 5400 0    50   ~ 0
+B10
+Wire Wire Line
+	4850 5500 5700 5500
+Text Label 5450 5500 0    50   ~ 0
+B11
+Wire Wire Line
+	3450 4500 2600 4500
+Text Label 2850 4500 2    50   ~ 0
+A1
+Wire Wire Line
+	3450 4600 2600 4600
+Text Label 2850 4600 2    50   ~ 0
+A2
+Wire Wire Line
+	3450 4700 2600 4700
+Text Label 2850 4700 2    50   ~ 0
+A3
+Wire Wire Line
+	3450 4800 2600 4800
+Text Label 2850 4800 2    50   ~ 0
+A4
+Wire Wire Line
+	3450 4900 2600 4900
+Text Label 2850 4900 2    50   ~ 0
+A5
+Wire Wire Line
+	3450 5000 2600 5000
+Text Label 2850 5000 2    50   ~ 0
+A6
+Wire Wire Line
+	3450 5100 2600 5100
+Text Label 2850 5100 2    50   ~ 0
+A7
+Wire Wire Line
+	3450 5200 2600 5200
+Text Label 2850 5200 2    50   ~ 0
+A8
+Wire Wire Line
+	3450 5300 2600 5300
+Text Label 2850 5300 2    50   ~ 0
+A9
+Wire Wire Line
+	3450 5400 2600 5400
+Text Label 2850 5400 2    50   ~ 0
+A10
+Wire Wire Line
+	3450 5500 2600 5500
+Text Label 2850 5500 2    50   ~ 0
+A11
+Text Label 4850 2000 0    50   ~ 0
+GNDB4
+Text Label 4850 2300 0    50   ~ 0
+GNDB7
+Text Label 3300 2000 0    50   ~ 0
+GNDA4
+$EndSCHEMATC

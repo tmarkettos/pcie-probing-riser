@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name PCIexpress_edge)(type Legacy)(uri /Users/atm26/cl/pcb/iosec/pcie-probing-riser/pcie-probing-riser/PCIexpress_edge.lib)(options "")(descr ""))
+)

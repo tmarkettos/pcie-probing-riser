@@ -954,8 +954,8 @@ Text Label 6400 900  0    50   ~ 0
 REFCLK_P
 Text Label 6400 1000 0    50   ~ 0
 REFCLK_N
-Text Label 6400 800  0    50   ~ 0
-GNDA13
+Text Label 5500 800  0    50   ~ 0
+GNDA12
 Text Label 6400 1100 0    50   ~ 0
 GNDA15
 Text Label 6400 1400 0    50   ~ 0
@@ -1004,39 +1004,6 @@ F 3 "~" H 8000 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R75
-U 1 1 5B03CEFC
-P 8100 3000
-F 0 "R75" H 8159 3046 50  0000 L CNN
-F 1 "0R" H 8159 2955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 8100 3000 50  0001 C CNN
-F 3 "~" H 8100 3000 50  0001 C CNN
-	1    8100 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R76
-U 1 1 5B044FEA
-P 8200 3000
-F 0 "R76" H 8259 3046 50  0000 L CNN
-F 1 "0R" H 8259 2955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 8200 3000 50  0001 C CNN
-F 3 "~" H 8200 3000 50  0001 C CNN
-	1    8200 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R77
-U 1 1 5B044FF0
-P 8300 3000
-F 0 "R77" H 8359 3046 50  0000 L CNN
-F 1 "0R" H 8359 2955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 8300 3000 50  0001 C CNN
-F 3 "~" H 8300 3000 50  0001 C CNN
-	1    8300 3000
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R_Small R78
 U 1 1 5B04D114
 P 8400 3000
@@ -1056,28 +1023,6 @@ F 1 "0R" H 8559 2955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 8500 3000 50  0001 C CNN
 F 3 "~" H 8500 3000 50  0001 C CNN
 	1    8500 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R80
-U 1 1 5B04D120
-P 8600 3000
-F 0 "R80" H 8659 3046 50  0000 L CNN
-F 1 "0R" H 8659 2955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 8600 3000 50  0001 C CNN
-F 3 "~" H 8600 3000 50  0001 C CNN
-	1    8600 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R81
-U 1 1 5B04D126
-P 8700 3000
-F 0 "R81" H 8759 3046 50  0000 L CNN
-F 1 "0R" H 8759 2955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 8700 3000 50  0001 C CNN
-F 3 "~" H 8700 3000 50  0001 C CNN
-	1    8700 3000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1122,50 +1067,6 @@ F 1 "0R" H 5659 2955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 5600 3000 50  0001 C CNN
 F 3 "~" H 5600 3000 50  0001 C CNN
 	1    5600 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R68
-U 1 1 5B0552F2
-P 5700 3000
-F 0 "R68" H 5759 3046 50  0000 L CNN
-F 1 "0R" H 5759 2955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 5700 3000 50  0001 C CNN
-F 3 "~" H 5700 3000 50  0001 C CNN
-	1    5700 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R69
-U 1 1 5B0552F8
-P 5800 3000
-F 0 "R69" H 5859 3046 50  0000 L CNN
-F 1 "0R" H 5859 2955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 5800 3000 50  0001 C CNN
-F 3 "~" H 5800 3000 50  0001 C CNN
-	1    5800 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R70
-U 1 1 5B0552FE
-P 5900 3000
-F 0 "R70" H 5959 3046 50  0000 L CNN
-F 1 "0R" H 5959 2955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 5900 3000 50  0001 C CNN
-F 3 "~" H 5900 3000 50  0001 C CNN
-	1    5900 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R71
-U 1 1 5B055304
-P 6000 3000
-F 0 "R71" H 6059 3046 50  0000 L CNN
-F 1 "0R" H 6059 2955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 6000 3000 50  0001 C CNN
-F 3 "~" H 6000 3000 50  0001 C CNN
-	1    6000 3000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1245,17 +1146,6 @@ Wire Wire Line
 	6000 2900 6000 2300
 Connection ~ 6000 2300
 $Comp
-L Device:R_Small R72
-U 1 1 5B110AE8
-P 6100 3000
-F 0 "R72" H 6159 3046 50  0000 L CNN
-F 1 "0R" H 6159 2955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 6100 3000 50  0001 C CNN
-F 3 "~" H 6100 3000 50  0001 C CNN
-	1    6100 3000
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R_Small R73
 U 1 1 5B110AEE
 P 6200 3000
@@ -1286,54 +1176,24 @@ Connection ~ 5500 3100
 Wire Wire Line
 	5500 3100 5600 3100
 Connection ~ 5600 3100
-Wire Wire Line
-	5600 3100 5700 3100
-Connection ~ 5700 3100
-Wire Wire Line
-	5700 3100 5800 3100
-Connection ~ 5800 3100
-Wire Wire Line
-	5800 3100 5900 3100
-Connection ~ 5900 3100
-Wire Wire Line
-	5900 3100 6000 3100
-Connection ~ 6000 3100
-Wire Wire Line
-	6000 3100 6100 3100
-Connection ~ 6100 3100
-Wire Wire Line
-	6100 3100 6200 3100
 Connection ~ 6200 3100
-Wire Wire Line
-	8800 3100 8700 3100
 Connection ~ 8000 3100
 Wire Wire Line
 	8000 3100 7550 3100
-Connection ~ 8100 3100
-Wire Wire Line
-	8100 3100 8000 3100
-Connection ~ 8200 3100
-Wire Wire Line
-	8200 3100 8100 3100
-Connection ~ 8300 3100
-Wire Wire Line
-	8300 3100 8200 3100
 Connection ~ 8400 3100
-Wire Wire Line
-	8400 3100 8300 3100
 Connection ~ 8500 3100
 Wire Wire Line
 	8500 3100 8400 3100
-Connection ~ 8600 3100
-Wire Wire Line
-	8600 3100 8500 3100
-Connection ~ 8700 3100
-Wire Wire Line
-	8700 3100 8600 3100
 Wire Wire Line
 	6200 3100 6550 3100
 Text Label 6350 3100 0    50   ~ 0
 GNDA
 Text Label 7650 3100 0    50   ~ 0
 GNDB
+Wire Wire Line
+	5600 3100 6200 3100
+Wire Wire Line
+	8000 3100 8400 3100
+Wire Wire Line
+	8500 3100 8800 3100
 $EndSCHEMATC

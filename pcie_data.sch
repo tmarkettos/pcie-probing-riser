@@ -15,11 +15,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L PCIexpress_edge:PCIexpress_x8 U2
+L PCIexpress_edge:PCIexpress_x4 U2
 U 2 1 5AFB1DBD
 P 3350 3600
 F 0 "U2" H 4050 3890 60  0000 C CNN
-F 1 "PCIexpress_x8" H 4050 3784 60  0000 C CNN
+F 1 "PCIexpress_x4" H 4050 3784 60  0000 C CNN
 F 2 "Connector_PCBEdge:BUS_PCIexpress_x8" H 3350 3600 50  0001 C CNN
 F 3 "" H 3350 3600 50  0001 C CNN
 	2    3350 3600

@@ -28,14 +28,14 @@ F 3 "" H 3450 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PCIexpress_edge:PCIexpress_x8 U?
+L PCIexpress_edge:PCIexpress_x4 U?
 U 1 1 5AFB1F39
 P 3450 4500
 AR Path="/5AFB1F39" Ref="U?"  Part="1" 
 AR Path="/5AFB1ECB/5AFB1F39" Ref="U2"  Part="1" 
 F 0 "U2" H 4150 4790 60  0000 C CNN
-F 1 "PCIexpress_x8" H 4150 4684 60  0000 C CNN
-F 2 "Connector_PCBEdge:BUS_PCIexpress_x8" H 3450 4500 50  0001 C CNN
+F 1 "PCIexpress_x4" H 4150 4684 60  0000 C CNN
+F 2 "Connector_PCBEdge:BUS_PCIexpress_x4" H 3450 4500 50  0001 C CNN
 F 3 "" H 3450 4500 50  0001 C CNN
 	1    3450 4500
 	1    0    0    -1  

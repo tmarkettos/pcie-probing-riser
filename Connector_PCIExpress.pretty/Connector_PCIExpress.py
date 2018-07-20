@@ -8,10 +8,10 @@ def header(lanes):
     print("  (descr \"PCIexpress Bus Through Hole Connector x%d lanes\")" % (lanes))
     print("  (tags \"PCIexpress Bus Through Hole Connector x%d\")" % (lanes))
     print("  (attr virtual)")
-    print("  (fp_text reference REF** (at 5.05 -3.31) (layer F.SilkS)")
+    print("  (fp_text reference REF** (at 0 5) (layer F.SilkS)")
     print("    (effects (font (size 1 1) (thickness 0.15)))")
     print("  )")
-    print("  (fp_text value PCIExpress_TH_x%d (at 16.48 -3.31) (layer F.Fab)" %(lanes))
+    print("  (fp_text value PCIExpress_TH_x%d (at 0 5) (layer F.Fab)" %(lanes))
     print("    (effects (font (size 1 1) (thickness 0.15)))")
     print("  )")
     print("  (fp_text user %R (at 9.5 0.662) (layer F.Fab)")
@@ -34,7 +34,7 @@ def outline(lanes):
     c = b - 15.85
     width = 7.50
     # lip on A side of connector
-    lip = 8.61-width
+    lip = 1.35
     
     # top and bottom edges
     y_a = -width/2;
@@ -52,26 +52,12 @@ def outline(lanes):
         j = i + 1
         x_next = x_low if (j==0 or j==1 or j==4) else x_high
         y_next = y_a if (j==0 or j==3 or j==4) else y_b
+        y_crt = y if (i==0 or i==3) else y_b+lip
+        y_crt_next = y_next if (j==0 or j==3 or j==4) else y_b+lip
         print("  (fp_line (start %g %g)  (end %g %g)  (layer F.SilkS)  (width 0.12))" % (x, y, x_next, y_next))
+        print("  (fp_line (start %g %g)  (end %g %g)  (layer F.CrtYd)  (width 0.12))" % (x, y_crt, x_next, y_crt_next))
     return
     
-def nothing():
-
-    print("  (fp_line (start 10.6 -5.2)  (end 12.4 -5.2)  (layer F.SilkS)  (width 0.12))")
-    print("  (fp_line (start 12.4 -5.2)  (end 12.4 -2)  (layer F.SilkS)  (width 0.12))")
-    print("  (fp_line (start -0.7 -2)  (end 10.6 -2)  (layer F.SilkS)  (width 0.12))")
-    print("  (fp_line (start 10.6 -2)  (end 10.6 3.8)  (layer F.SilkS)  (width 0.12))")
-    print("  (fp_line (start 10.6 3.8)  (end -0.7 3.8)  (layer F.SilkS)  (width 0.12))")
-    print("  (fp_line (start -0.7 3.8)  (end -0.7 -2)  (layer F.SilkS)  (width 0.12))")
-    print("  (fp_line (start %g -2)  (end 12.4 -2)  (layer F.SilkS)  (width 0.12))" % (end + silk_delta))
-    print("  (fp_line (start 12.4 3.8)  (end %g 3.8)  (layer F.SilkS)  (width 0.12))" % (end + silk_delta))
-    print("  (fp_line (start 12.4 -2)  (end 12.4 3.8)  (layer F.SilkS)  (width 0.12))")
-    print("  (fp_line (start %g -2)  (end %g 3.8)  (layer F.SilkS)  (width 0.12))" % (end + silk_delta, end + silk_delta))
-    print("  (fp_line (start -0.95 -5.45)  (end %g -5.45)  (layer F.CrtYd)  (width 0.05))" % (end + crtyd_delta))
-    print("  (fp_line (start -0.95 -5.45)  (end -0.95 4.05)  (layer F.CrtYd)  (width 0.05))")
-    print("  (fp_line (start %g 4.05)  (end %g -5.45)  (layer F.CrtYd)  (width 0.05))" % (end + crtyd_delta, end + crtyd_delta))
-    print("  (fp_line (start %g 4.05)  (end -0.95 4.05)  (layer F.CrtYd)  (width 0.05))" % (end + crtyd_delta))
-    return
 
 def mounting_hole(x, y):
 #    print("  (pad ~ thru_hole %s (at %g %g) (drill 2.35) (layers *.Cu *.Mask))" % (side, pin, shape, x, y))
